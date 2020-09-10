@@ -1,0 +1,1 @@
+powershell -executionpolicy bypass -File "./montaziera.ps1"
