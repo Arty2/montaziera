@@ -82,6 +82,7 @@ $versioning = $(Get-Date).ToString('yyyy-MM-dd_hh-mm');
 ffmpeg -safe 0 -f concat -segment_time_metadata 1 -i "./concat.txt" `
 	-codec:v libx264 -codec:a aac -preset ultrafast `
 	-vf select=concatdec_select -af aselect=concatdec_select,aresample=async=1 `
+	-v quiet -stats -loglevel fatal `
 	"./preview_$versioning.mp4";
 
 
