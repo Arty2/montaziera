@@ -7,7 +7,7 @@ Its purpose is to quickly generate feedback for peers that can indicate preffere
 ## Requirements
 
 - [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7); a scripting language available by default on Windows 10 installations. It’s also possible to install it on [macOS](https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-7).
-- [ffmpeg](https://ffmpeg.zeranoe.com/builds/); an open-source command-line tool for editing video. You will have to [install a Windows build](https://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/) manually. It’s important for `ffmpeg` executable to be [added to the Path](0https://superuser.com/a/284351).
+- [ffmpeg](https://ffmpeg.zeranoe.com/builds/); an open-source command-line tool for editing video. You will have to [install a Windows build](https://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/) manually. It’s important for `ffmpeg` executable to be [added to the Path](https://superuser.com/a/284351).
 - Any spreadsheet editor (such as Microsoft Excel, Google Sheets, LibreOffice Calc etc.) that can export [CSV files](https://www.lifewire.com/csv-file-2622708).
 - Download all the files from this repository in the same directory (folder).
 
